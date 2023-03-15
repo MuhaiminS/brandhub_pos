@@ -69,7 +69,7 @@
                         <div class="row">
                            <div class="col-sm-4">
                               <div class="logo">
-                                 <img src="img/logo.png" alt="logo">
+                                 <!-- <img src="img/logo.png" alt="logo"> -->
                               </div>
                            </div>
                            <div class="col-sm-4">

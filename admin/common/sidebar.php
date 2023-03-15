@@ -19,25 +19,7 @@
 
       <!-- Sidebar user panel (optional) -->
 
-      <div class="user-panel">
-
-        <div class="pull-left image">
-
-          <img src="dist/img/oversee_logo_400x400.jpg" class="img-circle" alt="User Image">
-
-        </div>
-
-        <div class="pull-left info">
-
-          <p><?php echo (isset($_SESSION['user_name'])) ? $_SESSION['user_name'] : ''; ?></p>
-
-          <!-- Status -->
-
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-
-        </div>
-
-      </div>
+      
 
 
 
