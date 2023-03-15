@@ -1,0 +1,596 @@
+@font-face{ src:url(../fonts/Raleway-Regular.ttf); font-family:"rale-way";}
+
+
+body{ background:#fafafa;}
+.container{max-width:1050px!important;}
+header{width: 100%;background:#f4f4f4; color:#000; margin-bottom:10px; border-bottom:1px #e6e2e2 solid;}
+.logo{ padding:10px 4px;}
+.logo img{ padding:10px 4px;}
+.home-head{ text-align:center; font-family:"rale-way"; color:#000; padding:30px 5px; font-size:23px;}
+.log-box{ padding:20px; text-align:right;}
+.icon-box-one{}
+.icon-box-one p{ text-align:left; color:#000; display:inline-block;font-family:"rale-way";}
+.icon-box-one span{text-align:left;display:inline-block;font-family:"rale-way"; }
+.style-two{text-align:right ; color:#f14715;display:inline-block;font-family:"rale-way";}
+
+
+.product-box{}
+
+.prod-sale{ width:100%!important; float:left; cursor:pointer; margin-bottom:17px; background:#f56212; color:#fff; text-align:center; padding:20px 0px; border-radius:5px;}
+.prod-sale:hover{  width:100%!important;   margin-bottom:17px; cursor:pointer; background:#222; color:#fff; text-align:center; padding:20px 0px; border-radius:3px;}
+.prod-sale span{margin-bottom:10px ;}
+.prod-sale p{color:#fff; text-align:center; font-size:14px;font-family:"rale-way"; margin-top:10px;
+}
+
+
+/*===Counter-Sale===*/
+
+.logo-s{
+padding:20px 4px;}
+
+.counter-head{ text-align:center; font-family:"rale-way"; color:#000; padding:13px 5px; font-size:23px;}
+.log-box-s{ padding:20px; text-align:right;}
+.log-box-s-one{ float:right;}
+.log-box-s-one p{ text-align:right; color:#000; font-weight:bold; padding-left:8px; display:inline-block;font-family:"rale-way";}
+.log-box-s-one span{text-align:left;display:inline-block;font-family:"rale-way"; }
+
+.conter-product{}
+
+#exTab1 .tab-content {
+  color :#222;
+  background-color: #f5f5f5;
+  padding : 5px 15px;
+  font-size:14px;
+}
+
+#exTab2 h3 {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+
+
+/* remove border radius for the tab */
+
+.tab-box{ width:auto; background-attachment:scroll; position:absolute;}
+
+#exTab1 .nav-pills > li > a {
+  border-radius: 0;
+  background:#222;
+  color:#fff;
+  padding:7px 20px;
+  font-family:"rale-way";
+}
+#exTab1 .nav-pills > li > a:hover {
+  border-radius: 0;
+  background:#f56212;
+  color:#fff;
+}
+
+/* change border radius for the tab , apply corners on top*/
+#exTab3 .nav-pills > li > a {
+  border-radius: 4px 4px 0 0 ;
+}
+
+#exTab3 .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+.search-box{ height:20px;}
+    #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+		width:100%;
+    }
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+		width:100%;
+        border-radius: 3px;
+		border:none;
+		padding:5px 10px;
+    }
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }
+	.prod-box{ border:1px solid #CCC; padding:3px; width:19.11%; margin:3px; float:left;}
+	.prod-box span{ background:#999;}
+	.prod-box span img{ width:100%;}
+	.prod-box h3{font-size:14px;font-family:"rale-way"; font-weight:bold; text-align:center;}
+	.prod-box p{font-size:14px;font-family:"rale-way";text-align:center; color:#f56212;}
+	
+	.counter-left{background:#f56212;}
+	ul.counter-menu{padding:0px;margin:0px;}
+	ul.counter-menu li{ background:#f56212; padding:7px 30px; color:#fff; display:inline-block;}
+	ul.counter-menu li a{color:#fff; text-decoration:none; display:inline-block; font-size:14px; font-family:"rale-way";}
+	ul.counter-menu li a:hover{color:#fff; display:inline-block; font-size:14px; font-family:"rale-way";}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th{ border:none;}
+	
+	.counter-table{ margin-top:20px;}
+	.discount{ background:#f56212; width:80px; height:30px; border-radius:5px; border:1px solid #d24b02;}
+	.counter-bottom-box{bottom:0px; margin-top:30%; position:fixed;}
+	
+.submit {
+    background: #F15604;
+    color: #fff;
+	padding:8px 100px;
+    font-size: 16px;
+    font-family: "rale-way";
+}
+.dl-submit {
+    background: #F15604;
+    color: #fff;
+	padding:12px 210px;
+    font-size: 16px;
+    font-family: "rale-way";
+}
+	
+	
+/*===log-in-page===*/
+
+	
+.logi-in-body{ background:#fff;}	
+.logi-in-box{ width:70%; margin:200px auto;}	
+.log-in-headr{ text-align:center; margin-bottom:35px;}
+.log-in-content{text-align:center;}
+.cnt-submit {
+    background: #F15604;
+    color: #fff;
+	width:100%;
+    font-size: 16px;
+	font-family:"rale-way";
+}
+
+
+/*===COD-page===*/	
+
+.cod-body{ background:#fff;}	
+.cod-box{  margin:5px auto;	font-family:"rale-way";}	
+.cod-box-two{ border-bottom:1px solid #CCC;}
+.cod-box-three{}
+ .style-three{font-family:Arial, Helvetica, sans-serif; color:#f56212; font-size:14px;}
+ .style-for{font-family:"rale-way"; color:#f56212; font-size:14px;}
+ 
+ /*===COD-page===*/	
+
+.sale-report-body{ background:#fff;}	
+.sale-report-box{  margin:5px auto;	font-family:"rale-way";}	
+.report-box{}
+.style-three{font-family:Arial, Helvetica, sans-serif; color:#f56212; font-size:14px;}
+.style-for{font-family:"rale-way"; color:#f56212; font-size:14px;}
+.sale-report-box span{ width:40px; height:40px; padding-right:7px;}
+.report-btn{ background:#f56212; color:#fff; text-align:center; width:100%; font-size:16px; padding:7px 0px; margin-bottom:5px;}
+
+
+
+ /*===CASH-BACK===*/	
+
+.cash-back-body{ background:#fff;}	
+.cash-back-box{ margin:5px auto; font-family:"rale-way"; width:70%;}	
+.cash-box-two{ margin:5px auto; font-family:"rale-way"; width:70%;}
+.style-three{font-family:Arial, Helvetica, sans-serif; color:#f56212; font-size:14px;}
+.style-for{font-family:"rale-way"; color:#f56212; font-size:14px;}
+.report-btn{ background:#f56212; color:#fff; text-align:center; width:100%; font-size:16px; padding: 7px 12px;
+    margin-bottom: 5px; margin-bottom:5px;}
+
+.cash-btn{
+	background: #F15604;
+    color: #fff;
+    width: 70%;
+    font-size: 16px;
+    font-family: "rale-way";
+	}
+.cash-btn:hover{
+    color: #fff !important;
+	background: #000;
+	}
+.cash-box-two span{ margin-right:8px;}
+.text{ background:#fff4ee; width:35px; height:25px; font-size:16px; color:#000; font-weight:bold; border:1px solid #ffad80; text-align:center; border-radius:5px;}
+
+
+
+ /*===SETTINGS===*/	
+
+.setting-body{ background:#fff;}	
+.setting-box{ margin:70px auto; font-family:"rale-way"; width:70%;}	
+.setting-box-two{ margin:5px auto; font-family:"rale-way"; width:70%;}
+
+.printer{ background:url(../img/printer.png) no-repeat left center; border:1px solid #ccc; width:100%; padding:10px 40px;}
+
+.cash{ background:url(../img/cash-drawer.png)  no-repeat left center; border:1px solid #ccc; width:100%; padding:10px 40px;
+}
+
+.lang{ background:url(../img/globe.png)  no-repeat left center; border:1px solid #ccc; width:100%; padding:10px 40px;
+}
+.form-group-s{
+    margin-bottom: 1px;
+}
+
+ /*=== DRIVERS-LIST ===*/	
+
+.drivers-body {}	
+.drivers-box { margin:70px auto; font-family:"rale-way"; width:70%; background:#222;}
+.driver-image { height:100px; width:100px;}
+.driver-image p{ont-family:"rale-way"; color:#222; font-size:16px; margin-top:5px; }
+	
+.driver-image img { width:100%; height:100px; float:left; padding-bottom:10px;} 
+.driver-icon{ 	 float:right; padding-bottom:10px; background:#f5f5f5 ; border-radius:5px; margin-top:30px;}	
+.driver-icon img{width:100%; }	
+
+
+ /*=== SETTLE-SALE ===*/	
+
+.settle-sale-body {}	
+.settle-sale-box {font-family:"rale-way"; width:70%; }
+.driver-image p{font-family:"rale-way"; color:#222; font-size:16px; margin-top:5px; }
+	
+.settle-tab-box{ width:100%; background-attachment:scroll;}
+.settle-box-two {
+    margin: 5px auto;
+    font-family: "rale-way";
+}
+
+.settle-sale-three{ margin-top:15px; margin-bottom:10px;}
+.settle-sale-for{  margin-bottom:10px; border-top:1px solid #ccc; height:100px; padding-top:15px; background:#f0efef;}
+.settle-sale-for h3{font-family:"rale-way"; color:#f56212; font-size:19px;}
+.settle-sale-for p{font-family:"rale-way"; color:#222; font-size:14px;}
+.settle-submit {
+    background: #F15604;
+    color: #fff;
+    padding:12px 100px !important;
+    font-size: 16px;
+    font-family: "rale-way";
+}
+.settle-submit:hover{
+    background: #000;
+    color: #fff !important;
+    padding:12px 100px !important;
+    font-size: 16px;
+    font-family: "rale-way";
+}
+.log-box-s {
+    margin-top:10px !important; 
+}
+
+
+
+@media(max-width:1600px){
+	.log-box-s {
+    padding-top:20px; 
+}
+
+
+}
+
+	
+
+
+@media(max-width:1400px){
+
+	
+.prod-sale{ width:100%!important; float:left; cursor:pointer; margin-bottom:17px; background:#f56212; color:#fff; text-align:center; padding:20px 0px; border-radius:5px;}
+.prod-sale:hover{  width:100%!important;   margin-bottom:17px; cursor:pointer; background:#222; color:#fff; text-align:center; padding:20px 0px; border-radius:3px;}
+.prod-sale span{margin-bottom:10px ;}
+.prod-sale p{color:#fff; text-align:center; font-size:14px;font-family:"rale-way"; margin-top:10px;
+}
+
+
+}
+
+
+
+
+@media(min-width:768px){
+
+	
+	
+.prod-sale{ width:100%!important; float:left; cursor:pointer; margin-bottom:17px; background:#f56212; color:#fff; text-align:center; padding:20px 0px; border-radius:5px;}
+.prod-sale:hover{  width:100%!important;   margin-bottom:17px; cursor:pointer; background:#222; color:#fff; text-align:center; padding:20px 0px; border-radius:3px;}
+.prod-sale span{margin-bottom:10px ;}
+.prod-sale p{color:#fff; text-align:center; font-size:14px;font-family:"rale-way"; margin-top:10px;
+}
+.submit {
+    background: #F15604;
+    color: #fff;
+    /*padding:7px 23px !important;*/
+    font-size: 15px;
+    font-family: "rale-way";
+	z-index:9999999;
+	overflow:visible;
+}
+.counter-bottom-box {
+    bottom: 20px;
+    margin-top:10%;
+    position: fixed;
+	z-index:99;
+	visibility:visible;
+	left: 8%;
+}
+
+
+}
+
+@media(max-width:480px){
+
+.prod-sale{ width:100%!important; float:left; cursor:pointer; margin-right:5px; background:#f56212; color:#fff; text-align:center; padding:20px 0px; border-radius:5px;}
+.prod-sale:hover{  width:100%!important; margin-right:5px; cursor:pointer; background:#222; color:#fff; text-align:center; padding:20px 0px; border-radius:3px;}
+.prod-sale span{margin-bottom:10px ;}
+.prod-sale p{color:#fff; text-align:center; font-size:14px;font-family:"rale-way"; margin-top:10px;
+}
+.home-head {
+	padding:0px;
+}
+.logo {
+    padding: 1px 4px;
+	width:58%;
+	float:left;
+}
+.logo img {
+    padding: 1px 4px;
+	width:100%;
+}
+.home-head {
+    text-align: right;
+    font-family: "rale-way";
+    color: #000;
+    padding: 5px 5px !important;
+    font-size: 18px;
+	width:40%;
+	float:left;
+}
+.icon-box-one{ float:left; width:100%; margin-top:10px; text-align:left;     font-family: "rale-way";color: #000;
+    font-size: 16px;}
+.icon-box-two{ float:left; width:100%;text-align:left; text-align:left; font-family: "rale-way";color: #000;
+    font-size: 16px; margin-bottom:8px;}
+	
+.cash-back-box {
+    margin: 5px auto;
+    font-family: "rale-way";
+    width:100% !important;
+}
+
+.logo-s{
+    padding: 1px 4px;
+	width:24%;
+	float:left;
+}
+.logo-s img{
+	width:32%;
+	float:left;
+}
+
+.cash-btn {
+    background: #F15604;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    font-family: "rale-way";
+}	
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #fff !important;
+}
+.counter-head {
+    text-align:left;
+    font-family: "rale-way";
+    color: #000;
+    padding: 8px 5px;
+    font-size:17px;
+}
+.log-box-s-one {
+    float: right;
+    margin-top: 0px;
+}
+.prod-box {
+    border: 1px solid #CCC;
+    padding: 3px;
+    width: 40.11%;
+    margin: 3px;
+    float: left;
+}
+.submit {
+    background: #F15604;
+    color: #fff;
+    padding:7px 23px;
+    font-size: 16px;
+    font-family: "rale-way";
+	z-index:999999;
+	overflow:visible;
+}
+.counter-bottom-box {
+    bottom: 0px;
+    margin-top:10%;
+    position: fixed;
+	z-index:9999;
+}
+.dl-submit {
+    background: #F15604;
+    color: #fff;
+    padding: 12px 100px;
+    font-size: 16px;
+    font-family: "rale-way";
+}
+.drivers-box {
+    margin: 70px auto;
+    font-family: "rale-way";
+    width: 70%;
+    background:none !important;
+}
+.driver-icon {
+    float: left;
+    padding-bottom: 10px;
+    background: #f5f5f5;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.settle-sale-for {
+    margin-bottom: 10px;
+    border-top: 1px solid #ccc;
+    height: 145px;
+    padding-top: 15px;
+    background: #f0efef;
+}
+
+
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.report-btn {border: 1px solid;}
+button.report-btn:hover {
+    background: #ce6c37;
+}
+
+.print-btnn{
+background: #f56212;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 8px;
+    margin-bottom: 5px;
+	border: 1px solid;
+}
+.print-btnn:hover {
+	background: #ce6c37;
+	text-decoration: none;
+	color: #fff;
+	cursor:pointer;
+}
+.det-po{color: #f56212;}
+.det-po:hover{color: #ce6c37; text-decoration: none;}
+
+
+
+
+
+
+/* Online order log */
+.maincod_sec {
+ border: 1px solid #dddddd;
+ border-radius: 8px;
+ box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.1);
+ margin-bottom: 15px;
+ padding: 5px 7px;
+ }
+ .custom_receiptno_name h3 {
+ font-size: 20px;
+ text-transform: capitalize;
+ }
+ .custom_receiptno_name span {
+ padding-left: 14px;
+ }
+ .cod_cust_person_name {
+ font-weight: bold;
+ text-transform: capitalize;
+ }
+ .custom_codsavediv {
+ float: right;
+ font-size: 17px;
+ padding-bottom: 13px;
+ padding-right: 7px;
+ padding-top: 15px;
+ }
+ .custom_codsavediv a {
+ background: #f56212 none repeat scroll 0 0;
+ color: #ffffff;
+ padding: 6px 7px;
+ text-decoration: none;
+ border-radius: 3px ;
+ }
+ .cod_custom_table_body td {
+ border: unset !important;
+ }
+ .cod_custom_table_body_totaltr > td {
+ font-size: 15px;
+ width: 50%;
+ }
+ .cod_custom_table_body_totaltr > td:nth-child(2) {
+ text-align: right;
+ }
+ .disprice {
+ font-weight: bold;
+ padding-left: 9px;
+ }
+ .totalprice {
+ font-weight: bold;
+ padding-left: 9px;
+ }
+ .cod_custom_table {
+ margin-bottom: 0 !important;
+ }
+ .viewmorecls {
+ padding-right: 9px;
+ text-align: right;
+ margin-bottom: 10px;
+ }
+ .viewmorecls a {
+ background: #f56212;
+ color: #fff;
+ padding: 4px 7px;
+ border-radius: 2px;
+ text-transform: capitalize;
+ font-size: 15px;
+ }
+ .save_btn {
+ background: #f56212;
+ color: #fff;
+ padding: 4px 7px;
+ border-radius: 2px;
+ text-transform: capitalize;
+ font-size: 15px;
+ }
+
+ .btn-icon {
+    background: #ccc;
+    color: #000;
+}
+ .btn-icon:hover {
+    background: #ccc;
+    color: #f56212;
+}
+ /* Online order log  End*/
+
+ /* driver list */
+ .drivers-list img{ width: 120px; height: 120px;}
+ .dv-val{margin: 5px; display: inline-flex;}
+ .drivers-list{text-align: center;;width: 100%;}
+ .dv-val p {margin-top: 5px;}
+ .drivers-list input {height: 2em; width: 2em; }
